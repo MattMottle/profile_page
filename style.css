@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    height: 700px;
+}
+.bar{
+    width: 990px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+ul {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 12pt;
+    font-family: helvetica;
+}
+ul a {
+    color:white;
+    text-decoration:none;
+}
+button.sign-out {
+    position: relative;
+    top: -10px;
+    left: 900px;
+    color:white;
+    background-color: teal;
+    text-decoration: none;
+}
+h2 {
+    font-size: 22pt;
+}
+.header{
+    width: 495px;
+    height: 100px;
+    background-color: teal;
+}
+.profilepic img {
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: 25px;
+    border: 3px solid lightgray;
+}
+.topleft {
+    border: 3px solid lightgray;
+    width: 500px;
+    margin-left:50px;
+    margin-top: 50px;
+    font-family: helvetica;
+    font-size: 16pt;
+}
+.topleft p {
+    padding: 5px;
+}
+.usercard {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: -30px;
+}
+.bottomleft {
+    border: 3px solid lightgray;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: helvetica;
+    font-size: 16pt;
+}
+.bottomleft p {
+    padding: 10px;
+}
+.education-banner {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.education-banner p {
+    padding-left: 20px;
+}
+.topright {
+    border: 3px solid lightgray;
+    margin-top: -600px;
+    margin-left: 590px;
+    width: 350px;
+    height: 200px;
+    font-family: helvetica;
+    font-size: 16pt;
+}
+.requestbanner {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.requestcount {
+    border-radius: 50%;
+    background-color: slategray;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.requestbanner p {
+    padding: 15px;
+}
+.todd {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.todd img {
+    border-radius: 50%;
+    width: 50px;
+}
+.phil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.phil img {
+    border-radius: 50%;
+    width: 50px;
+}
+.acceptdeny img {
+    width: 30px;
+    padding: 5px;
+}
+.bottomright {
+    border: 3px solid lightgray;
+    margin-left: 590px;
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+    font-family: helvetica;
+    font-size: 16pt;
+}
+.connectionsbanner {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.connectionscount {
+    border-radius: 50%;
+    background-color: slategray;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.connectionsbanner p {
+    padding: 15px;
+}
+.bottomright img {
+    border-radius: 50%;
+    width: 50px;
+}
+.anne {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.arry {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.adrien {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.alayne {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.bottom {
+    border: 3px solid lightgray;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 590px;
+    margin-top: -5px;
+}
